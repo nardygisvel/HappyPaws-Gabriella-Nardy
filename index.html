@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Paws – Grooming Studio</title>
+
+  <!-- Bootstrap --> 
+  <!--I am placing Bootstrap before the CSS beacuse if not it will override CSS instructions-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  
+  <!--CSS File for style-->
+  <link rel="stylesheet" href="css/gaby.css"/>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"> 🐾 Happy Paws</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Pet Grooming</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/petservices.html">Pet Services</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="pages/Partnerships.html">Partnerships</a>
+          </li>
+        </ul>
+        <a href="pages/ContactUs.html" class="btn-main ms-lg-3">Book with us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section-->
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-kicker">GROOMING STUDIO</div>
+      <h1>Professional Grooming for Happy Pets</h1>
+      <p>Baths, haircuts and spa treatments delivered by certified groomers in a calm, clean studio designed around your pet’s comfort.</p>
+      <div class="hero-actions">
+        <a class="hp-btn-primary" href="#packages">Book a Groom</a>
+        <a class="hp-btn-ghost" href="#services">View all services</a>
+      </div>
+      <p class="hero-meta">Based in Dublin Center · Dogs & cats welcome · Fear-free handling</p>
+    </div>
+    <div class="hero-image">
+	<img src="img/dogs.jpg" alt="Dog being groomed at Happy Paws">
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <div class="benefit-bar">
+    <div class="benefit-item">✓ Certified groomers</div>
+    <div class="benefit-item">✓ Vet-approved products</div>
+    <div class="benefit-item">✓ Fear-free, low-stress handling</div>
+    <div class="benefit-item">✓ Online booking & reminders</div>
+  </div>
+
+  <!-- QUICK OVERVIEW -->
+  <section class="section section--light">
+    <h2 class="section-title">What we do in the studio?</h2>
+    <p class="section-subtitle">From quick freshen-ups to complete spa days, we tailor every groom to your pet’s coat and comfort level.</p>
+
+    <div class="overview-grid">
+      <div class="overview-card">
+        <h3>Full Groom</h3>
+        <p>Complete bath, haircut, nail trim, ears and styling.</p>
+      </div>
+      <div class="overview-card">
+        <h3>Bath & Brush</h3>
+        <p>Perfect between grooms – bath, blow dry, brush-out.</p>
+      </div>
+      <div class="overview-card">
+        <h3>Puppy & Senior</h3>
+        <p>Short, gentle sessions for first-timers and older pets.</p>
+      </div>
+      <div class="overview-card">
+        <h3>Add-on Treatments</h3>
+        <p>De-shedding, teeth cleaning, paw balm and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Grooming Services -->
+  <section id="services" class="section section--white">
+    <h2 class="section-title">Grooming services</h2>
+
+    <div class="service-grid">
+      <div class="service-card">
+	  <img src="img/Styling_dog.jpg" alt="Dog bath and blow dry at Happy Paws">
+        <div class="service-card-body">
+          <div class="service-tag">Bath & blow dry</div>
+          <h3>Fresh Coat Bath</h3>
+          <p>Deep clean bath, fluff dry and full brush-out to keep coats soft and tangle-free.</p>
+          <p class="service-meta">Ideal between full grooms.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+	  <img src="img/dog_haircut.jpg" alt="Dog haircut at Happy Paws">
+        <div class="service-card-body">
+          <div class="service-tag">Haircut</div>
+          <h3>Full Groom & Style</h3>
+          <p>Breed-specific or custom cuts with full body tidy, paws, face and tail.</p>
+          <p class="service-meta">For dogs and cats.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+	  <img src="img/Nails_dog.jpg" alt="Nail trim at Happy Paws">
+        <div class="service-card-body">
+          <div class="service-tag">Nails</div>
+          <h3>Nail Trim & Paw Care</h3>
+          <p>Quick, stress-aware nail trims plus paw balm for soft, healthy pads.</p>
+          <p class="service-meta">Walk-in slots often available.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+	  <img src="img/Teeth_dog.jpg" alt="Dental care at Happy Paws">
+        <div class="service-card-body">
+          <div class="service-tag">Dental</div>
+          <h3>Teeth Freshen-Up</h3>
+          <p>Gentle teeth cleaning and fresh-breath treatment as an add-on to grooms.</p>
+          <p class="service-meta">Ask us about suitability.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+	  <img src="img/shedding_dog.jpg" alt="De-shedding trim at Happy Paws">
+        <div class="service-card-body">
+          <div class="service-tag">De-shedding</div>
+          <h3>Shedding Control</h3>
+          <p>Targeted treatments to reduce loose hair and undercoat shedding at home.</p>
+          <p class="service-meta">Great for double-coated breeds.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+	  <img src="img/puppies.jpg" alt="Puppies at Happy Paws">
+        <div class="service-card-body">
+          <div class="service-tag">Puppies</div>
+          <h3>Puppy Intro Groom</h3>
+          <p>Short, positive first experiences so young pets learn to love grooming.</p>
+          <p class="service-meta">For pups up to 12 months.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Grooming Packages-->
+  <section id="packages" class="section section--white">
+    <h2 class="section-title">Grooming packages</h2>
+
+    <div class="package-grid">
+      <div class="package-card">
+        <h3>Short Coat</h3>
+        <p class="package-price">From €30</p>
+        <ul>
+          <li>Bath, blow dry & brush</li>
+          <li>Nail trim</li>
+          <li>Ear cleaning</li>
+        </ul>
+        <button class="hp-btn-primary">Book short coat</button>
+      </div>
+      <div class="package-card">
+        <span class="package-tag">Most popular</span>
+        <h3>Full Groom</h3>
+        <p class="package-price">From €45</p>
+        <ul>
+          <li>Bath, blow dry & full haircut</li>
+          <li>Nail trim & ear cleaning</li>
+          <li>Feet, face & sanitary tidy</li>
+        </ul>
+        <button class="hp-btn-primary">Book full groom</button>
+      </div>
+      <div class="package-card">
+        <h3>Spa Package</h3>
+        <p class="package-price">From €60</p>
+        <ul>
+          <li>Full groom</li>
+          <li>Teeth freshen-up</li>
+          <li>Paw & nose treatment</li>
+        </ul>
+        <button class="hp-btn-primary">Book spa day</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works section -->
+  <section class="section section--light">
+    <h2 class="section-title">How it works?</h2>
+
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h3>Choose a service</h3>
+        <p>Select a full groom, bath, puppy visit or add-ons that fit your pet.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h3>Pick a time</h3>
+        <p>Use our booking form to choose a day and time that works for you.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h3>Drop off & relax</h3>
+        <p>We’ll text you when your pet is ready to go home looking and feeling great.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Studio pictures section -->
+  <section class="section section--white">
+    <h2 class="section-title">Happy customers</h2>
+    <div class="gallery-grid">
+	<img src="img/dog_1.jpg" alt="Dog at Happy Paws">
+	<img src="img/dog_2.jpg" alt="Dog at Happy Paws">
+	<img src="img/dog_3.jpg" alt="Dog at Happy Paws">
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section section--light">
+    <h2 class="section-title">Happy pets, Happy owner</h2>
+    <div class="review-grid">
+      <div class="review-card">
+        <p>“Our collie can be nervous, but the team is so calm and patient. She comes back looking incredible every time.”</p>
+        <p class="review-name">Shena & Bruno</p>
+      </div>
+      <div class="review-card">
+        <p>“The booking process is super easy, and I love that they send a text when my dog is almost done.”</p>
+        <p class="review-name">Gaby & Canito</p>
+      </div>
+      <div class="review-card">
+        <p>“Professional, spotless studio and really knowledgeable groomers. You can tell they genuinely love animals.”</p>
+        <p class="review-name">Dany & Eire</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--white">
+    <h2 class="section-title">Grooming Services FAQ</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>How often should I book a groomin service for my dog?</h3>
+        <p>We can suggest every 6 to 8 weeks.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do you have any package for anxious dogs?</h3>
+        <p> We do not have a special package for anxious dogs, however we can accomodate our Happy customer in quiet slot and the appointment can last a little bit longer, just let us know in advance.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do you offer cat grooming services?</h3>
+        <p>Yes, we offer services for cats, but remember that cats clean themselves, so the frequency will depend on the cat's coat.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Book an appointment -->
+  <section class="section section--dark final-cta">
+    <h2>Ready to book your next groom?</h2>
+    <p>Tell us about your pet and we’ll help you choose the right service.</p>
+    <a href="pages/ContactUs.html" class="hp-btn-primary">Book an appointment</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Happy Paws. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
